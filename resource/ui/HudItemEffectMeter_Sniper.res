@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Sniper.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"ya_HudBG"
 	}
 	
 	"ItemEffectMeterBG"
@@ -53,6 +53,49 @@
 		"font"					"TFFontSmall"
 	}
 
+	"CountLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountLabel"
+		"xpos"					"c122"
+		"ypos"					"382"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"16"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Heads"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Medium16"
+		"fgcolor"				"White"
+	}
+	"CountLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountLabelShadow"
+		"xpos"					"c123"
+		"ypos"					"383"
+		"zpos"					"1"
+		"wide"					"41"
+		"tall"					"16"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Heads"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Medium16"
+		"fgcolor"				"ya_Shadow"
+	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -71,45 +114,45 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
-   "ItemEffectMeterCount"
+   
+	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			        "c149"	
-		"ypos"			        "r90"
+		"xpos"			        "c90"	
+		"ypos"			        "382"
 		"zpos"					"2"
-		"wide"					"92"
-		"tall"					"20"	
+		"wide"					"30"
+		"tall"					"16"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		        "AmmoReserve"
-		"font"				    "DataLabelMedium"
+		"fgcolor"		        "ya_AmmoReserve"
+		"font"				    "Medium16"
 	}
     "ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"
-		"xpos"			    "c150"	
-		"ypos"			    "r89"
+		"xpos"			        "c91"	
+		"ypos"			        "383"
 		"zpos"					"2"
-		"wide"					"92"
-		"tall"					"20"		
+		"wide"					"30"
+		"tall"					"16"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		    "HudShadow"
-		"font"				"DataLabelMedium"
+		"fgcolor"		    "ya_Shadow"
+		"font"				"Medium16"
 	}
 }

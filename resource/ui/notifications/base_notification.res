@@ -35,7 +35,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"NoveMedium9"
+		"font"			"Medium9"
 		"fgcolor_override" "White"
 		"xpos"			"c-200"
 		"ypos"			"r380"

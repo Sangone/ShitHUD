@@ -5,13 +5,16 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
-		"ypos"			"8"
-		"zpos"			"10"
-		"wide"			"290"
-		"tall"			"100"
+		"ypos"			"120"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"170"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+        
+		"border"				"NoBorder"
+		"bgcolor_override"		"ya_HudBG"
+        "paintbackground"	"1"
+		"PaintBackgroundType"	"2"
 		
 		"model_xpos"		"4"
 		"model_center_y"	"1"
@@ -30,7 +33,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
 		}
 		

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NoveMedium14"
+		"font"			"Medium14"
 		"xpos"			"0"
 		"ypos"			"r437"
 		"zpos"			"1"
@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	    "Black"
+		"fgcolor"	    "ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -31,10 +31,10 @@
 		"wide"			"38"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"Black"
+		"iconColor"		"ya_Name"
 	}
 	
 	"DestroyIcon"	
@@ -46,11 +46,11 @@
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"23"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"Black"
+		"iconColor"		"ya_Name"
 	}
 		
 	"BuildingIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"Black"
+		"iconColor"		"ya_Name"
 	}
 		
 	"NumberBg"	
@@ -82,15 +82,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"Black"
+		"iconColor"		"ya_Name"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NoveMedium14"
-		"fgcolor"		"White"
+		"font"			"Medium14"
+		"fgcolor"		"ya_NameCounter"
 		"xpos"			"0"
 		"ypos"			"67"
 		"zpos"			"1"

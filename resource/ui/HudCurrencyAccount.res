@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"NoveMedium18"
+		"font"			"MediumNumbers20"
 		"fgcolor"		"White"
-		"xpos"			"r150"		//16
-		"ypos"			"r19"
+		"xpos"			"23"		//16
+		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}	
 	
@@ -21,20 +21,20 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG"
-		"xpos"			"r150"		//15
+		"xpos"			"15"		//15
 		"ypos"			"r17"		//7
 		"zpos"			"-22"
 		"wide"			"80"
 		"tall"			"17"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"	"Green"
+		"bgcolor_override"	"Blank"
 	}
     "Label"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label"
-		"font"			"NoveLight10"
+		"font"			"Medium10"
 		"labelText"		"Money"
 		"fgcolor"		"White"
 		"textAlignment"	"west"

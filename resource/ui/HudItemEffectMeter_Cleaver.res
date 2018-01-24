@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"r113"
+		"ypos"			"r120"
 		"wide"			"120"
 		"tall"			"20"
         "MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"MeterBG"		"ya_HudBG"
 	}
 	
 	"ItemEffectMeterBG"
@@ -44,9 +44,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"
-		"fgcolor_override" "MeterText"
+		"fgcolor_override" "ya_Meter"
 		"textAlignment"			"center"
-		"font"				"NoveLight8"
+		"font"				"Medium8"
 	}
 
 	"ItemEffectMeter"
@@ -55,7 +55,7 @@
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"6"				
@@ -64,7 +64,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "DarkGray"
+		"bgcolor_override" "ya_HudBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"

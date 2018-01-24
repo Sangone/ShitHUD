@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NoveMedium14"
+		"font"			"Medium14"
 		"xpos"			"0"
 		"ypos"			"r437"
 		"zpos"			"1"
@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	"Black"
+		"fgcolor"	"ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ya_Name"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}	
@@ -71,15 +71,15 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"Black"
+		"iconColor"		"ya_Name"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NoveMedium14"
-		"fgcolor"		"Black"
+		"font"			"Medium14"
+		"fgcolor"		"ya_Name"
 		"xpos"			"0"
 		"ypos"			"67"
 		"zpos"			"1"

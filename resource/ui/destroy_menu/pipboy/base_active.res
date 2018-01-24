@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NoveMedium14"
+		"font"			"Medium14"
 		"xpos"			"0"
 		"ypos"			"r437"
 		"zpos"			"1"
@@ -12,11 +12,11 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"center"
-		"fgcolor"	"MenuText"
+		"fgcolor"	    "Black"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 	
 	"DestroyIcon"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 		
 	"BuildingIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 		
 	"NumberBg"	
@@ -82,14 +82,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"MenuText"
+		"iconColor"		"Black"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NoveMedium14"
+		"font"			"Medium14"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"67"

@@ -12,10 +12,10 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" "MeterText"
+		"fgcolor_override" "ya_Meter"
 		"labelText"				"BOW"
 		"textAlignment"			"center"
-		"font"					"NoveLight8"
+		"font"					"Medium8"
 	}	
 	"ChargeMeter"
 	{	
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "DarkGray"
+		"bgcolor_override" "ya_HudBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"

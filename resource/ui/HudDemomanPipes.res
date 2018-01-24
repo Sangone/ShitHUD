@@ -5,7 +5,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"38"
@@ -23,17 +23,17 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"-4"
+		"ypos"			"14"
 		"zpos"			"3"
 		"wide"			"120"
-		"tall"			"13"
+		"tall"			"10"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" "MeterText"
-		"labelText"				"SHIELD"
+		"fgcolor_override" "ya_Meter"
+		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"NoveLight8"
+		"font"					"Medium8"
 	}
 	"ChargeMeter"
 	{	
@@ -41,7 +41,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"16"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"6"				
@@ -50,7 +50,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "DarkGray"
+		"bgcolor_override" "ya_HudBG"
 		"fgcolor_override" "White"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -60,7 +60,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -100,7 +100,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"DataLabelMedium"
+			"font"			"Medium18"
 			"fgcolor"		"White"
 		}		
 		"NumPipesLabelShadow"
@@ -121,8 +121,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"DataLabelMedium"
-			"fgcolor"		"HudShadow"
+			"font"			"Medium18"
+			"fgcolor"		"ya_Shadow"
 		}		
 	}
 	
@@ -195,7 +195,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Regular21"
-			"fgcolor"		"HudShadow"
+			"fgcolor"		"ya_Shadow"
 		}	
 	}				
 }

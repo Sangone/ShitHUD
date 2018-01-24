@@ -35,7 +35,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"black"
+		"fgcolor"		"ya_Name"
 	}
 
 	"ItemBackground"
@@ -47,8 +47,8 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"135"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
@@ -64,7 +64,7 @@
 		"wide"			"56"
 		"tall"			"56"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
